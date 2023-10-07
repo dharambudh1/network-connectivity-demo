@@ -1,16 +1,25 @@
-# connectivity_demo
+# Network Connectivity Demo
 
-A new Flutter project.
+## Description:
+This is an illustrative project designed to evaluate and validate network connectivity.
 
-## Getting Started
+  - This sample project encompasses three primary network connectivity scenarios:
+    - Connected
+    - Connected but lacking internet access
+    - Disconnected
 
-This project is a starting point for a Flutter application.
+Additionally, it offers information about the source of the internet connection, including options like Wi-Fi, Ethernet, mobile data, and more.
 
-A few resources to get you started if this is your first Flutter project:
+  - Furthermore, this sample project incorporates a set of connectivity-related functions:
+    - `initConnectivity()`
+    - `onConnectivityChangedListener()`
+    - `disposeListener()`
+    - `updateConnectionStatus()`
+    - `onConnectionChangeSnackBar()`
+    - `connectivityBuilder()`
+    - `hasNetwork()`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Important: In this example project, it performs ping tests on a selection of internet addresses to confirm the state of connectivity. Utilizing an integrated data connection checker, it initiates pings to dependable servers such as CloudFlare, Google, and OpenDNS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on
-mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/y6j82VWT/imgonline-com-ua-twotoone-n5-D2e-Nl5-BJR.png "img")
